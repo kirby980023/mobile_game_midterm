@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHP : MonoBehaviour
-{
+{  
     private float hp = 100f;
 
     // Start is called before the first frame update
@@ -23,7 +23,9 @@ public class EnemyHP : MonoBehaviour
 
         if (other.tag == "Arrow")
         {
-           hp -= 12.5f;
+           Bullet bullet = other.GetComponent<Bullet>();
+
+           hp -= Bullet.atk;
 
            if (hp <= 0)
            {
