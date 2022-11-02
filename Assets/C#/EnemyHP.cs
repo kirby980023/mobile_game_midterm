@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyHP : MonoBehaviour
 {
+    private float hp = 100f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +23,14 @@ public class EnemyHP : MonoBehaviour
 
         if (other.tag == "Arrow")
         {
-          gameObject.SetActive(false);
-          Destroy(gameObject);
+           hp -= 12.5f;
 
+           if (hp <= 0)
+           {
+                gameObject.SetActive(false);
+                Destroy(gameObject);
+
+           }
         }
     }
  }
