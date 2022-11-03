@@ -93,7 +93,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 3784634536861268957}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 3332793181433353768}
   - component: {fileID: 7887740421481487250}
   - component: {fileID: 3799799171391512232}
+  - component: {fileID: 5085651118287807620}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Arrow
@@ -270,3 +271,17 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!136 &5085651118287807620
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133920634788951114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.10751265
+  m_Height: 1
+  m_Direction: 2
+  m_Center: {x: -0.0071205497, y: 0, z: 0}
