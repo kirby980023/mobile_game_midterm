@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Shootable
   - Enemy
+  - Undefined
+  - bullet
+  - Arrow
   layers:
   - Default
   - TransparentFX
