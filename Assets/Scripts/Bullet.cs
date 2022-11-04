@@ -19,5 +19,16 @@ public class Bullet : MonoBehaviour
     {
         
     }
+    private void OnTriggerEnter(Collider other)
+    {
+
+        if (other.tag == "Scenes")
+        {
+        //    Bullet bullet = other.GetComponent<Bullet>();
+
+           gameObject.SetActive(false);
+           Destroy(gameObject);
+        }
+    }
 }
 

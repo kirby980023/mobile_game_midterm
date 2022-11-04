@@ -9,6 +9,7 @@ TagManager:
   - Undefined
   - bullet
   - Arrow
+  - Scenes
   layers:
   - Default
   - TransparentFX
