@@ -25,8 +25,10 @@ public class LoadScene : MonoBehaviour
         if (curProgressValue == 100)
         {
 
-            loadingText.text = "OK"; 
-            SceneManager.LoadScene ("Menu");
+            loadingText.text = "   OK!   "; 
+
+            //待加延遲
+            SceneManager.LoadScene ("menu");
         }
     }  
 }
