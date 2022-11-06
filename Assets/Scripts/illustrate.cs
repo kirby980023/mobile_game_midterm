@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Continue : MonoBehaviour
+public class illustrate : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,6 @@ public class Continue : MonoBehaviour
     }
     public void OnClick()
     {
-    SceneManager.LoadScene("Level1");
+    SceneManager.LoadScene("illustrate");
     }
 }

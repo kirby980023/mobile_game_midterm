@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; 
 
-public class illustrate : MonoBehaviour
+public class Quit_2 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,10 @@ public class illustrate : MonoBehaviour
     }
     public void OnClick()
     {
-    SceneManager.LoadScene("Level1");
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
     }
 }

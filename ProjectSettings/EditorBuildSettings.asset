@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 66caf57b35f52b54591efb440ca5455a
   - enabled: 1
+    path: Assets/Scenes/illustrate.unity
+    guid: 63dec5f7ca13b3a44aa93c6af911b401
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
