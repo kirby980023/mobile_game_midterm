@@ -8,6 +8,8 @@ public class LoadScene : MonoBehaviour
     public Text loadingText;
     public Image progressBar; 
     private int curProgressValue = 0;
+    private float deadDelay = 1.5f;
+    private float deadDelayTimer = 0;
 
     void FixedUpdate()
     {
@@ -27,8 +29,12 @@ public class LoadScene : MonoBehaviour
 
             loadingText.text = "   OK!   "; 
 
-            //待加延遲
-            SceneManager.LoadScene ("menu");
+            deadDelayTimer += Time.deltaTime;
+
+            if (deadDelayTimer >= deadDelay)
+            {
+                SceneManager.LoadScene ("menu");
+            }
         }
     }  
 }
