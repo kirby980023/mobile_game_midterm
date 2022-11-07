@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyHP : MonoBehaviour
 {  
-    private float hp = 100f;
+    private float hp = 200f;
 
     // Start is called before the first frame update
     void Start()
