@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHP : MonoBehaviour
-{  
-    private float hp = 200f;
-
+public class GEnemyHP : MonoBehaviour
+{
+    private float hp = 400f;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +16,6 @@ public class EnemyHP : MonoBehaviour
     {
         
     }
-        
     private void OnTriggerEnter(Collider other)
     {
 
@@ -34,5 +32,4 @@ public class EnemyHP : MonoBehaviour
            }
         }
     }
- }
-
+}
