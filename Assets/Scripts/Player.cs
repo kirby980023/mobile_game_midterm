@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    private float hp = 500f;
     public float speed = 10;
     public Joystick joyStick;
     public Transform firePoint;
@@ -12,6 +14,8 @@ public class Player : MonoBehaviour
     private CharacterController controller;
 
     private GameObject focusEnemy;
+    public string nextScene;
+    public string reScene;
 
     void Start()
     {
@@ -103,6 +107,41 @@ public class Player : MonoBehaviour
 
             // 暫停 0.5 秒
             yield return new WaitForSeconds(0.5f);
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+
+        // if (other.tag == "Enemy")
+        // {
+        //     other.gameObject.SetActive(false);
+        //     Destroy(other.gameObject);
+
+        //     GameObject[] objs = GameObject.FindGameObjectsWithTag("Enemy");
+
+        //     if (objs.Length == 0)
+        //     {
+        //         SceneManager.LoadScene(nextScene);
+        //     }
+        // }
+        
+        if (other.tag == "Sea")
+        {
+            SceneManager.LoadScene(reScene);
+        }
+
+        if (other.tag == "sword")
+        {
+           Bullet bullet = other.GetComponent<Bullet>();
+
+           hp -= Bullet.atk;
+           if (hp <= 0)
+           {
+                gameObject.SetActive(false);
+                Destroy(gameObject);
+
+                SceneManager.LoadScene(reScene);
+           }
         }
     }
 }
