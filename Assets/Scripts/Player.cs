@@ -132,16 +132,16 @@ public class Player : MonoBehaviour
 
         if (other.tag == "sword")
         {
-           Bullet bullet = other.GetComponent<Bullet>();
+        //    Bullet bullet = other.GetComponent<Bullet>();
 
-           hp -= Bullet.atk;
-           if (hp <= 0)
-           {
+        //    hp -= Bullet.atk;
+        //    if (hp <= 0)
+        //    {
                 gameObject.SetActive(false);
                 Destroy(gameObject);
 
-                SceneManager.LoadScene(reScene);
-           }
+        //         SceneManager.LoadScene(reScene);
+        //    }
         }
     }
 }
