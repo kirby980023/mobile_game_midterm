@@ -14,8 +14,9 @@ public class Player : MonoBehaviour
     private CharacterController controller;
 
     private GameObject focusEnemy;
-    public string nextScene;
     public string reScene;
+    public GameObject win;
+    public GameObject winb;
 
     void Start()
     {
@@ -143,5 +144,14 @@ public class Player : MonoBehaviour
         //         SceneManager.LoadScene(reScene);
         //    }
         }
+   
+            GameObject[] objs = GameObject.FindGameObjectsWithTag("Enemy");
+
+            if (objs.Length == 0)
+            {
+                win.SetActive(true);
+                winb.SetActive(true);
+                Time.timeScale = 0f;
+            }
     }
 }

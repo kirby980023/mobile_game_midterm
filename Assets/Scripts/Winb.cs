@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class Begin : MonoBehaviour
+public class Winb : MonoBehaviour
 {
+    public string nextScene;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +16,9 @@ public class Begin : MonoBehaviour
     {
         
     }
+
     public void OnClick()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(nextScene);
     }
 }
