@@ -29,7 +29,7 @@ public class EnemyHP : MonoBehaviour
 
            if (hp <= 0)
            {
-                E_number.enemynumber = E_number.enemynumber - 1;
+                E_number1.enemynumber = E_number1.enemynumber - 1;
                 gameObject.SetActive(false);
                 Destroy(gameObject);
            }
