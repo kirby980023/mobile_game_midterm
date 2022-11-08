@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     public GameObject fall;
     public GameObject pause;
 
+
     void Start()
     {
         Time.timeScale = 1f;
@@ -147,6 +148,7 @@ public class Player : MonoBehaviour
         if (other.tag == "sword")
         {
             hp -= 1;
+            HP_number.HPnumber = HP_number.HPnumber - 1;
         //    Bullet bullet = other.GetComponent<Bullet>();
 
         //    hp -= Bullet.atk;
