@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class illustrate : MonoBehaviour
+public class XX : MonoBehaviour
 {
+    public GameObject pausetext;
+    public GameObject XXtext;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,7 @@ public class illustrate : MonoBehaviour
     }
     public void OnClick()
     {
-       SceneManager.LoadScene("illustrate");
+       pausetext.SetActive(false);
+       XXtext.SetActive(false);
     }
 }
