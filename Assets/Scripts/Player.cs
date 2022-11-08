@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    private float hp = 200f;
+    private float hp = 3f;
     public float speed = 10;
     public Joystick joyStick;
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public GameObject JS;
 
     private CharacterController controller;
 
@@ -17,9 +18,12 @@ public class Player : MonoBehaviour
     public string reScene;
     public GameObject win;
     public GameObject winb;
+    public GameObject fall;
+    public GameObject pause;
 
     void Start()
     {
+        Time.timeScale = 1f;
         controller = GetComponent<CharacterController>();
 
         // 開始一直射擊的 Coroutine 函式
@@ -88,6 +92,14 @@ public class Player : MonoBehaviour
         // 移動角色位置
         controller.Move(dir * speed * Time.deltaTime);
 
+     if (hp <= 0)
+        {
+            pause.SetActive(false);
+            fall.SetActive(true);
+            JS.SetActive(false);
+            Destroy(gameObject);
+            Time.timeScale = 0f;
+        }
 
     }
 
@@ -128,18 +140,20 @@ public class Player : MonoBehaviour
         
         if (other.tag == "Sea")
         {
+            fall.SetActive(true);
             SceneManager.LoadScene(reScene);
         }
 
         if (other.tag == "sword")
         {
+            hp -= 1;
         //    Bullet bullet = other.GetComponent<Bullet>();
 
         //    hp -= Bullet.atk;
         //    if (hp <= 0)
         //    {
-                gameObject.SetActive(false);
-                Destroy(gameObject);
+                // gameObject.SetActive(false);
+                // Destroy(gameObject);
 
         //         SceneManager.LoadScene(reScene);
         //    }
@@ -151,6 +165,7 @@ public class Player : MonoBehaviour
             {
                 win.SetActive(true);
                 winb.SetActive(true);
+                JS.SetActive(false);
                 Time.timeScale = 0f;
             }
     }
