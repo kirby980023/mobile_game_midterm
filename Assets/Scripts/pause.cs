@@ -7,6 +7,7 @@ public class pause : MonoBehaviour
 {
     public GameObject pausetext;
     public GameObject XXtext;
+    public GameObject Joystick;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,5 +23,12 @@ public class pause : MonoBehaviour
     {
        pausetext.SetActive(true);
        XXtext.SetActive(true);
+       Joystick.SetActive(false);
+       Pause();
+    }
+
+    private void Pause()
+    {
+        Time.timeScale = 0f;
     }
 }
