@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins \u76FE\u69CD (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3210592408471611545, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -190,6 +194,10 @@ PrefabInstance:
     - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_Name
       value: "Goblins\u96D9\u76FE (6)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6612075846839173126, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_RootOrder
@@ -1568,6 +1576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins \u69CD (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2048295642167775642, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
 --- !u!1 &205714498 stripped
@@ -2500,6 +2512,10 @@ PrefabInstance:
     - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_Name
       value: "Goblins\u96D9\u76FE (4)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6612075846839173126, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_RootOrder
@@ -4194,6 +4210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins\u69CD\u5200 (5)"
       objectReference: {fileID: 0}
+    - target: {fileID: 1708745703675636381, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2088966018318725159, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -4250,6 +4270,10 @@ PrefabInstance:
     - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_Name
       value: "Goblins\u96D9\u76FE (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6612075846839173126, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_RootOrder
@@ -4924,6 +4948,10 @@ PrefabInstance:
     - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_Name
       value: "Goblins \u76FE\u69CD (5)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3210592408471611545, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_RootOrder
@@ -5694,6 +5722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins\u69CD\u5200 (3)"
       objectReference: {fileID: 0}
+    - target: {fileID: 1708745703675636381, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2088966018318725159, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -5970,6 +6002,10 @@ PrefabInstance:
     - target: {fileID: 2048295642167775642, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
       propertyPath: m_Name
       value: "Goblins \u69CD (5)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048295642167775642, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
@@ -7226,6 +7262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins\u96D9\u76FE (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6612075846839173126, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -8301,6 +8341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins \u76FE\u69CD (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3210592408471611545, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -8617,6 +8661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins \u69CD (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2048295642167775642, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
 --- !u!1001 &1108004276
@@ -8904,7 +8952,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130964026}
-  m_LocalRotation: {x: 0.30065918, y: -0.00000001641027, z: 0.0000000051732565, w: 0.95373166}
+  m_LocalRotation: {x: 0.30065918, y: 0.00000001641027, z: -0.0000000051732565, w: 0.95373166}
   m_LocalPosition: {x: 207.73, y: 16.89, z: 240.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9383,6 +9431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins\u69CD\u5200 (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 1708745703675636381, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2088966018318725159, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -9491,7 +9543,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1194996367}
-  m_LocalRotation: {x: 0.30065918, y: -0.00000001641027, z: 0.0000000051732565, w: 0.95373166}
+  m_LocalRotation: {x: 0.30065918, y: 0.00000001641027, z: -0.0000000051732565, w: 0.95373166}
   m_LocalPosition: {x: 207.73, y: 16.89, z: 240.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9529,6 +9581,10 @@ PrefabInstance:
     - target: {fileID: 1708745703675636381, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
       propertyPath: m_Name
       value: "Goblins\u69CD\u5200 (6)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708745703675636381, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2088966018318725159, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
       propertyPath: m_RootOrder
@@ -10682,6 +10738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins \u69CD (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2048295642167775642, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
 --- !u!1001 &1327377572
@@ -10970,6 +11030,10 @@ PrefabInstance:
     - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_Name
       value: "Goblins\u96D9\u76FE (5)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6612075846839173126, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_RootOrder
@@ -11929,6 +11993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins\u96D9\u76FE (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 5803204091290737340, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6612075846839173126, guid: 8098ccce06d7c7b4c8bd88bbe6b96a02, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -12003,6 +12071,10 @@ PrefabInstance:
     - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_Name
       value: "Goblins \u76FE\u69CD (7)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3210592408471611545, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_RootOrder
@@ -12610,6 +12682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins\u69CD\u5200 (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 1708745703675636381, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2088966018318725159, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -12851,6 +12927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins \u76FE\u69CD (3)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3210592408471611545, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -13028,6 +13108,10 @@ PrefabInstance:
     - target: {fileID: 2048295642167775642, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
       propertyPath: m_Name
       value: "Goblins \u69CD (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048295642167775642, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a88cca584639ecc46abf8181758cbd97, type: 3}
@@ -14973,7 +15057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e24039f405805194e81089d67f3226f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Level4
+  nextScene: Win
 --- !u!114 &1834704207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15280,6 +15364,10 @@ PrefabInstance:
     - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_Name
       value: "Goblins \u76FE\u69CD (6)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3210592408471611545, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_RootOrder
@@ -15794,6 +15882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Goblins \u76FE\u69CD (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 2865837906540655139, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3210592408471611545, guid: 43cf4f92c697fbd4099d5521f33d5ac3, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -16182,6 +16274,10 @@ PrefabInstance:
     - target: {fileID: 1708745703675636381, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
       propertyPath: m_Name
       value: "Goblins\u69CD\u5200 (1)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708745703675636381, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2088966018318725159, guid: 3ec8ce446581ac040909f9f932610a4f, type: 3}
       propertyPath: m_RootOrder

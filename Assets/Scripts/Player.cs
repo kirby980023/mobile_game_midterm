@@ -168,6 +168,7 @@ public class Player : MonoBehaviour
                 win.SetActive(true);
                 winb.SetActive(true);
                 JS.SetActive(false);
+                pause.SetActive(false);
                 Time.timeScale = 0f;
             }
     }
