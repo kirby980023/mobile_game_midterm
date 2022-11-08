@@ -1182,7 +1182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausetext: {fileID: 1929049737}
   XXtext: {fileID: 452016272}
-  Joystick: {fileID: 0}
+  Joystick: {fileID: 999749226}
 --- !u!114 &178971099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1339,7 +1339,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218787322}
-  m_LocalRotation: {x: 0.30065918, y: 1.9258222e-15, z: -1.1781768e-15, w: 0.95373166}
+  m_LocalRotation: {x: 0.30065915, y: -0.00000004019678, z: 0.000000012671834, w: 0.95373166}
   m_LocalPosition: {x: -0.39, y: 10.28, z: -15.045825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2355,7 +2355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2524,7 +2524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausetext: {fileID: 1929049737}
   XXtext: {fileID: 452016272}
-  Joystick: {fileID: 0}
+  Joystick: {fileID: 999749226}
 --- !u!114 &452016275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2957,7 +2957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4206,7 +4206,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.30065918, y: 1.9258222e-15, z: -1.1781768e-15, w: 0.95373166}
+  m_LocalRotation: {x: 0.30065915, y: -0.00000004019678, z: 0.000000012671834, w: 0.95373166}
   m_LocalPosition: {x: -0.39, y: 10.28, z: -15.045825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

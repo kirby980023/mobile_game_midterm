@@ -20,7 +20,7 @@ public class ship : MonoBehaviour
         if (passedTime >= timerInterval)
         {
 
-            transform.localPosition += new Vector3(-0.15f, 0, 0) * Time.deltaTime; 
+            transform.localPosition += new Vector3(-0.5f, 0, 0) * Time.deltaTime; 
 
             passedTime = 0;
             
