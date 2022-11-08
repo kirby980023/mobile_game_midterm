@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BulletE : MonoBehaviour
 {
     public static float atk = 25;
     public float speed = 30f;
@@ -30,7 +30,7 @@ public class Bullet : MonoBehaviour
            Destroy(gameObject);
         }
 
-        if (other.tag == "Enemy")
+        if (other.tag == "Player")
         {
         //    Bullet bullet = other.GetComponent<Bullet>();
 
@@ -39,4 +39,3 @@ public class Bullet : MonoBehaviour
         }
     }
 }
-

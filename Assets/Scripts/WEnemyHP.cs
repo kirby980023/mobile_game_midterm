@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WEnemyHP : MonoBehaviour
 {
-    private float hp = 350f;
+    private float hp = 200f;
     private GameObject focusPlayer;
     // Start is called before the first frame update
     void Start()

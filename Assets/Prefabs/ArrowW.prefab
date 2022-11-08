@@ -107,10 +107,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6777070624520225243}
-  - component: {fileID: 3332793181433353768}
   - component: {fileID: 7887740421481487250}
   - component: {fileID: 3799799171391512232}
   - component: {fileID: 5085651118287807620}
+  - component: {fileID: -4440722072821543180}
   m_Layer: 0
   m_Name: ArrowW
   m_TagString: sword
@@ -134,19 +134,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3332793181433353768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6133920634788951114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0d7618a58734e819d274cead839d6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 30
 --- !u!54 &7887740421481487250
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -285,3 +272,16 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 2
   m_Center: {x: -0.0071205497, y: 0, z: 0}
+--- !u!114 &-4440722072821543180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133920634788951114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1551f09578a5c164caf384d9437a7a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30

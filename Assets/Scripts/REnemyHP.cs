@@ -7,7 +7,7 @@ public class REnemyHP : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     private CharacterController controller;
-    private float hp = 250f;
+    private float hp = 125f;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,10 +50,8 @@ public class REnemyHP : MonoBehaviour
     {
         while (true)
         {
-            // 射擊
             Fire();
 
-            // 暫停 0.5 秒
             yield return new WaitForSeconds(0.7f);
         }
     }

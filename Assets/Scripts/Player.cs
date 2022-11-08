@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    private float hp = 500f;
+    private float hp = 200f;
     public float speed = 10;
     public Joystick joyStick;
     public Transform firePoint;
