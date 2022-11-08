@@ -7,7 +7,7 @@ public class GEnemyHP : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     private CharacterController controller;
-    private float hp = 150f;
+    private float hp = 75f;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +33,7 @@ public class GEnemyHP : MonoBehaviour
 
            if (hp <= 0)
            {
+                E_number.enemynumber = E_number.enemynumber - 1;
                 gameObject.SetActive(false);
                 Destroy(gameObject);
            }
