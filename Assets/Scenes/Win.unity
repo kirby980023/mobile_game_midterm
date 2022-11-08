@@ -4059,8 +4059,12 @@ MonoBehaviour:
   joyStick: {fileID: 1154630135}
   firePoint: {fileID: 2107875802}
   bulletPrefab: {fileID: 6133920634788951114, guid: 774762f889eb049f6bd6d10fdb62a1fb, type: 3}
-  nextScene: Level4
+  JS: {fileID: 0}
   reScene: Level3
+  win: {fileID: 0}
+  winb: {fileID: 0}
+  fall: {fileID: 0}
+  pause: {fileID: 0}
 --- !u!136 &1292648513
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6679,7 +6683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2060689511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6692,7 +6696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341d50adbe6e4604a8a91eb058e66386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reScene: Level3
+  reScene: 
 --- !u!4 &2060689512
 Transform:
   m_ObjectHideFlags: 0

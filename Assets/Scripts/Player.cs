@@ -140,7 +140,7 @@ public class Player : MonoBehaviour
         
         if (other.tag == "Sea")
         {
-            fall.SetActive(true);
+            // fall.SetActive(true);
             SceneManager.LoadScene(reScene);
         }
 
